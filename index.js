@@ -1,20 +1,12 @@
-let code1 = 7 + 3;
-console.log(code1);
+let code1;
+code1 = 7 + 3;
+const code2 = 60 - 40 / 2;
+const code3 = 37 + (5 % 3);
 
-let code2 = 60 / 2 + 10
-console.log(code2);
+const message = "The vault has been secured. The combination is:";
+const codeA = code1 + "-" + code2 + "-" + code3;
+const codeB = `${code1}-${code2}-${code3}`;
 
-let code3 = 39
-console.log(code3);
-
-let message = "The vault has been secured. The code to the vault is "
 console.log(message);
-
-let codeA = (code1 + "-" + code2 + "-" + code3);
 console.log(codeA);
-
-let codeB = (`${code1}-${code2}-${code3}`);
 console.log(codeB);
-
-console.log(message,codeA,codeB);
-
